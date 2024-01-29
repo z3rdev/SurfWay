@@ -1,55 +1,54 @@
-# SurfWay
-# Техническое задание для проекта "Платформа прозрачных социальных опросов"
+# Terms of Reference for the project "SurfWay"
 
-## 1. Цель проекта
+## 1. Project Objective
 
-Осуществить разработку инновационной платформы для проведения прозрачных социальных опросов, предоставляя возможность ведущим агентствам, прогрессивным университетам и страстным исследователям участвовать и делиться своими исследованиями. Нашей главной фишкой будет обеспечение открытого доступа к методологиям опросов, поддерживая принципы открытости и совместной работы.
+To undertake the development of an innovative platform for transparent social surveys, enabling leading agencies, progressive universities and passionate researchers to participate and share their research. Our main draw will be to provide open access to survey methodologies, supporting the principles of openness and collaboration.
 
-## 2. Функциональность
+## 2. Functionality
 
-### 2.1 Аккаунт
+### 2.1 Account
 
-- Предоставим пользователю возможность легкого создания аккаунта для максимального удобства.
-- Обеспечим гибкую систему управления персональными данными с возможностью их изменения.
+- Provide easy account creation for the user to maximize convenience.
+- Provide a flexible system for managing personal data with the ability to change it.
 
-### 2.2 Поиск опросов
+### 2.2 Survey Search
 
-- Реализуем мощный инструмент поиска, обеспечивающий быстрый доступ к разнообразным опросам.
-- Дадим возможность фильтрации опросов для уточнения поисковых запросов.
+- Implement a powerful search tool that provides quick access to a variety of surveys.
+- We will allow you to filter surveys to refine your search queries.
 
-### 2.3 Опросы
+### 2.3 Polls
 
-- Создадим удобную коллекцию опросов, в которых участвует пользователь, обеспечивая полный контроль и участие в интересных тематиках.
-- Разработаем интуитивно понятный интерфейс для создания и отклика на опросы, делая весь процесс максимально простым и приятным.
-- Предоставим возможность детальной фильтрации опросов для нахождения наиболее актуальных и интересных тем.
+- Create a user-friendly collection of polls that the user participates in, providing full control and participation in interesting topics.
+- Develop an intuitive interface for creating and responding to surveys, making the entire process as simple and enjoyable as possible.
+- Provide detailed filtering of surveys to find the most relevant and interesting topics.
 
-### 2.4 Организации
+### 2.4 Organizations
 
-- Внедрим функционал создания организаций, чтобы пользователи могли объединять усилия и проводить совместные исследования.
-- Предоставим удобные инструменты для управления опросами в рамках организации.
+- Introduce organization creation functionality so users can join forces and conduct collaborative research.
+- Provide easy-to-use tools to manage surveys within an organization.
 
-## 3. Контент
+## 3. Content
 
-- Опросы будут являться ключевым элементом нашей платформы, представляя собой комплексную информацию, включающую название, автора, выборку опрашиваемых, методологию и результаты. Мы стремимся к современному и привлекательному визуальному представлению, соответствующему современным стандартам [ссылка на макет].
+- Surveys will be a key element of our platform, providing comprehensive content including title, author, sample of interviewees, methodology, and results. We aim for a modern and attractive visual presentation that meets current standards [link to mockup].
 
-## 4. Предлагаемый стек технологий
+## 4. Proposed technology stack
 
-### 4.1 Бэкенд
+### 4.1 Backend.
 
-- Используем язык программирования Go для обеспечения высокой производительности и надежности.
-- База данных PostgreSQL будет гарантировать эффективное хранение и обработку данных.
+- We use Go/Python3 programming language to ensure high performance and reliability.
+- PostgreSQL database will guarantee efficient data storage and processing.
 
-### 4.2 Фронтенд
+### 4.2 Frontend
 
-- Воспользуемся фреймворком SolidJS для создания быстрого, легкого и отзывчивого пользовательского интерфейса.
-- Для UI-компонентов выберем RadixUI, обеспечивая стильный и современный дизайн.
+- We will use SolidJS framework to create a fast, lightweight and responsive user interface.
+- We will choose RadixUI for the UI components, providing a stylish and modern design.
 
-## 5. Интеграции
+## 5. Integrations
 
-- Реализуем удобную систему аутентификации через Telegram или OpenID, обеспечивая безопасность и простоту входа.
+- We will implement a convenient authentication system via Telegram or OpenID, providing security and easy login.
 
-## 6. Распределение ролей
+## 6. Role assignment
 
-- **Админ/Модератор:** Ключевой участник, обеспечивающий контроль над контентом и управление пользовательскими аккаунтами.
-- **Организация:** Сущность, обладающая правами создания, управления опросами и объединения пользователей для коллективных исследований.
-- **Пользователь:** Пользовательский опыт будет нашим приоритетом, предоставляя возможность управления личными данными и активным участием в интересных опросах.
+- **Admin/Moderator:** A key member who provides content control and management of user accounts.
+- **Organization:** An entity with the power to create, manage surveys, and bring users together for collective research.
+- **User:** User experience will be our priority, providing the ability to manage personal data and actively participate in interesting surveys.
